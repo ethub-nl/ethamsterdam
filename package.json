@@ -1,0 +1,21 @@
+{
+  "name": "ethamsterdam",
+  "version": "1.0.0",
+  "author": "wslyvh",
+  "main": "index.js",
+  "homepage": "https://github.com/ethub-nl/ethamsterdam#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethub-nl/ethamsterdam.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethub-nl/ethamsterdam/issues"
+  },
+}
