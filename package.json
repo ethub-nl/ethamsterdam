@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "author": "wslyvh",
   "main": "index.js",
-  "homepage": "https://github.com/ethub-nl/ethamsterdam#readme"
+  "homepage": "https://github.com/ethub-nl/ethamsterdam#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "node deploy"
   },
   "repository": {
     "type": "git",
@@ -18,4 +18,10 @@
   "bugs": {
     "url": "https://github.com/ethub-nl/ethamsterdam/issues"
   },
+  "devDependencies": {
+    "ftp-deploy": "^2.3.5"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
