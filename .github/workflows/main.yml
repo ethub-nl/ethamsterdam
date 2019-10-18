@@ -9,6 +9,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - name: Install Dependencies
+      run: npm install
     - name: Deploy
       run: npm run deploy
       
